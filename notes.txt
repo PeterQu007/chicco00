@@ -1,0 +1,15 @@
+notes:
+
+//@@ -- knowledge / code / snippets from web link
+
+Easier JavaScript object constructor arguments
+http://www.barelyfitz.com/blog/archives/2006/03/07/230/
+
+//how to use array.filter
+var set = [{"color":"blue"},{"color":"green"},{"color":"red"},{"color":"green"}];
+var results = set.filter(function (entry) { return entry.color === "green"; });
+
+--return an array, not an element
+--do not use this context object
+
+//
